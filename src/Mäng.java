@@ -71,6 +71,7 @@ public class Mäng {
                 // kui viskega läks jääk lõhki
                 if ((jääkMängija1 - visketabamus) < 0) {
                     System.out.println("Viskasid lõhki!");
+                    System.out.println(mängija1.getNimi() + " jääk: " + enneRoundiJääk1 + " pärast " + i + ". viset.");
                     jääkMängija1 = enneRoundiJääk1;
                     break;
                 }
@@ -109,6 +110,7 @@ public class Mäng {
                 // kui viskega läks jääk lõhki
                 if ((jääkMängija2 - visketabamus) < 0) {
                     System.out.println("Viskasid lõhki!");
+                    System.out.println(mängija2.getNimi() + " jääk: " + enneRoundiJääk2 + " pärast " + i + ". viset.");
                     jääkMängija2 = enneRoundiJääk2;
                     break;
                 }
