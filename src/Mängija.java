@@ -19,14 +19,11 @@ public class Mängija {
 
     @Override
     public String toString() {
-        return "Mängija{" +
-                "nimi='" + nimi + '\'' +
-                ", kõikVisked=" + kõikVisked +
-                '}';
+        return "Mängija " + nimi +
+                " kõik visked " + kõikVisked;
     }
 
-    public static void main(String[] args) {
-
+    public List<Integer> getKõikVisked() {
+        return kõikVisked;
     }
-
 }
